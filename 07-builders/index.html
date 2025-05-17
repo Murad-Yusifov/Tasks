@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.js"></script>
+  </head>
+  <body class="w-100% flex flex-col justify-center">
+    <div
+      class="w-full flex justify-center border-b border-gray-300 hidden sm:flex"
+    >
+      <div class="w-[90%] h-[50px] flex justify-between items-center">
+        <div class="flex justify-around w-[10%] items-center text-gray-500">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-solid fa-basketball"></i>
+          <span>Be</span>
+        </div>
+        <div class="">
+          <button
+            class="w-[120px] h-[30px] bg-white-200 text-black-200 border border-gray-500 cursor-pointer"
+          >
+            English
+          </button>
+          <button
+            class="w-[120px] h-[30px] bg-[#FAB700] text-white cursor-pointer"
+          >
+            Free Quote!
+          </button>
+        </div>
+      </div>
+    </div>
+    <header
+      class="w-full h-[90px] flex justify-center items-center sticky top-0 bg-white shadowBox z-[999]"
+    >
+      <nav class="w-[90%] flex justify-between">
+        <div class="">
+          <img
+            src="https://preview.colorlib.com/theme/builder/img/logo.png"
+            alt="logo"
+          />
+        </div>
+        <ul class="w-[40%] h-full flex justify-around uppercase hidden sm:flex">
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            Home
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            About
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            Services
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            Pages
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            Blog
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            Contact
+          </li>
+          <li
+            class="hover:text-[#FAB700] transition duration-300 ease-in-out cursor-pointer"
+          >
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </li>
+        </ul>
+        <!-- Kiçik ekranlar üçün menu ikonu -->
+        <div class="block sm:hidden">
+          <i
+            class="fa-solid fa-bars block sm:hidden hover:text-[#FAB700] text-2xl cursor-pointer"
+          ></i>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="w-full min-h-[700px] bg-[url('https://preview.colorlib.com/theme/builder/img/banner/home-banner.jpg.webp')] bg-center uppercase f flex flex-col justify-center items-center gap-[20px] text-white"
+    >
+      <span class="text-3xl sm:text-5xl">
+        Build Your <mark class="bg-[#FAB700]">Dream</mark>
+      </span>
+      <p class="text-md text-gray-400 w-3/4 sm:w-[50%] text-[10px] text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+      </p>
+      <button
+        class="w-[150px] h-[50px] bg-[#222222] text-yellow-200 cursor-pointer hover:bg-[#FAB700] hover:text-white transition ease-in-out duration-300 p-4"
+      >
+        Discover Now
+      </button>
+    </div>
+    <div
+      class="w-full flex flex-col justify-center items-center gap-4 bg-[#FFFFFF]"
+    >
+      <!-- Section-2 -->
+      <div
+        class="text-center sm:w-[80%] h-[160px] flex flex-col justify-center items-center gap-4"
+      >
+        <h1 class="text-2xl sm:text-32xl sm:text-5xl font-semibold">
+          Our Offered Services,
+        </h1>
+        <p class="tsm:">
+          Lorem ipsum dolor sit amet, consecteturadipis icing elit
+        </p>
+      </div>
+      <!-- Cards -->
+      <div
+        class="w-[90%] min-h-[300px] flex flex-col justify-center items-center gap-24 sm:flex-row"
+      >
+        <div
+          class="w-[90%] sm:w-[20%] h-[300px] flex flex-col items-center gap-4 cursor-pointer hover:shadow-2xl rounded-ls transition-shadow duration-300"
+        >
+          <img
+            class="w-1/4"
+            src="https://preview.colorlib.com/theme/builder/img/icon/service-icon-1.png"
+            alt=""
+          />
+          <h3>Building Drawings</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div
+          class="w-[90%] sm:w-[20%] h-[300px] flex flex-col items-center gap-4 cursor-pointer hover:shadow-2xl rounded-ls transition-shadow duration-300"
+        >
+          <img
+            class="w-1/4"
+            src="https://preview.colorlib.com/theme/builder/img/icon/service-icon-1.png"
+            alt=""
+          />
+          <h3>Building Drawings</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div
+          class="w-[90%] sm:w-[20%] h-[300px] flex flex-col items-center gap-4 cursor-pointer hover:shadow-2xl rounded-ls transition-shadow duration-300"
+        >
+          <img
+            class="w-1/4"
+            src="https://preview.colorlib.com/theme/builder/img/icon/service-icon-1.png"
+            alt=""
+          />
+          <h3>Building Drawings</h3>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consecteturadipis icing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-full h-[300px] flex flex-col justify-center items-center">
+      <h2 class="text-4xl font-semibold">Our Latest Projects</h2>
+      <p class="text-sm">Who are in extremely love with eco friendly system.</p>
+    </div>
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Kart 1 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-1.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity bg-[#FAB700] duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 2 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-2.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 3 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-3.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 4 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-4.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <!-- Kart 1 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-5.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 2 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-6.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 3 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-5.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kart 4 -->
+      <div class="relative group w-full h-[300px]">
+        <img
+          src="https://preview.colorlib.com/theme/builder/img/builder/builder-4.jpg"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+        <div
+          class="w-full h-full hidden absolute top-0 left-0 bg-black opacity-30 group-hover:flex transition-opacity duration-400 ease-in-out cursor-pointer text-white flex flex-col justify-center items-center p-4"
+        >
+          <div>
+            <p class="text-2xl font-bold mb-2 text-center">
+              Alex Complex for Residence
+            </p>
+            <p class="text-center">
+              LCD screens are uniquely modern in style, and the liquid crystals
+              that make them work have allowed humanity to create slimmer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-full h-[250px] flex flex-col justify-center items-center gap-2"
+    >
+      <h1 class="text-4xl font-nold">Meet Our Expert Members</h1>
+      <p class="text-md text-gray-400 text-gray-400">
+        Who are in extremely love with eco friendly system.
+      </p>
+    </div>
+    <!-- Section-4 -->
+    <div
+      class="w-full grid grid-cols-1 gap-4 p-5 cursor-pointer md:flex md:justify-around"
+    >
+      <div class="flex flex-col justify-around items-center gap-4 group">
+        <div class="w-[300px] relative">
+          <img
+            class="w-full h-full"
+            src="https://preview.colorlib.com/theme/builder/img/team/team-1.jpg"
+            alt=""
+          />
+          <div
+            class="flex flex-row justify-around w-full h-full items-center gap-4 text-gray-500 group-hover:opacity-[0.8] bg-[#FAB700] absolute top-0 left-0 left-1/2 -translate-x-1/2 p-2 rounded transition-opacity duration-300 opacity-[0] cursor-pointer"
+          >
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
+
+        <span class="text-2xl font-semibold">Ethel Davis</span>
+        <span class="text-gray-400">Managing Director (Sales)</span>
+      </div>
+      <div class="flex flex-col justify-around items-center gap-4 group">
+        <div class="w-[300px] relative">
+          <img
+            class="w-full h-full"
+            src="https://preview.colorlib.com/theme/builder/img/team/team-2.jpg"
+            alt=""
+          />
+          <div
+            class="flex flex-row justify-around w-full h-full items-center gap-4 text-gray-500 group-hover:opacity-[0.8] bg-[#FAB700] absolute top-0 left-0 left-1/2 -translate-x-1/2 p-2 rounded z-[1] transition-opacity duration-300 opacity-[0] cursor-pointer"
+          >
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
+
+        <span class="text-2xl font-semibold">Ethel Davis</span>
+        <span class="text-gray-400">Managing Director (Sales)</span>
+      </div>
+      <div class="flex flex-col justify-around items-center gap-4 group">
+        <div class="w-[300px] relative">
+          <img
+            class="w-full h-full"
+            src="https://preview.colorlib.com/theme/builder/img/team/team-3.jpg"
+            alt=""
+          />
+          <div
+            class="flex flex-row justify-around w-full h-full items-center gap-4 text-gray-500 group-hover:opacity-[0.8] bg-[#FAB700] absolute top-0 left-0 left-1/2 -translate-x-1/2 p-2 rounded transition-opacity duration-300 opacity-[0] cursor-pointer"
+          >
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
+
+        <span class="text-2xl font-semibold">Ethel Davis</span>
+        <span class="text-gray-400">Managing Director (Sales)</span>
+      </div>
+      <div class="flex flex-col justify-around items-center gap-4 group">
+        <div class="w-[300px] relative">
+          <img
+            class="w-full h-full"
+            src="https://preview.colorlib.com/theme/builder/img/team/team-4.jpg"
+            alt=""
+          />
+          <div
+            class="flex flex-row justify-around w-full h-full items-center gap-4 text-gray-500 group-hover:opacity-[0.8] bg-[#FAB700] absolute top-0 left-0 left-1/2 -translate-x-1/2 p-2 rounded transition-opacity duration-300 opacity-[0] cursor-pointer"
+          >
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-basketball"></i>
+          </div>
+        </div>
+
+        <span class="text-2xl font-semibold">Ethel Davis</span>
+        <span class="text-gray-400">Managing Director (Sales)</span>
+      </div>
+    </div>
+    <!-- Section-5 -->
+    <div
+      class="p-4 justify-around sm:min-h-[300px] flex justify-start items-center bg-[#FAB700]"
+    >
+      <div class="w-7/8 flex justify-around">
+        <div class="flex flex-col gap-4">
+          <span class="text-5xl font-bold">38</span>
+          <p>Projects Completed</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <span class="text-5xl font-bold">38</span>
+          <p>Projects Completed</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <span class="text-5xl font-bold">38</span>
+          <p>Projects Completed</p>
+        </div>
+        <div class="flex flex-col gap-4">
+          <span class="text-5xl font-bold">38</span>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section-6 -->
+    <div
+      class="w-full h-[270px] flex flex-col justify-center items-center gap-4"
+    >
+      <h2 class="text-2xl sm:text-4xl font-bold">
+        Some Features that Made us Unique
+      </h2>
+      <p class="text-md sm:text-xl font-md">
+        Who are in extremely love with eco friendly system.
+      </p>
+    </div>
+    <!-- Section-7 -->
+    <div class="gap-6 sm:w-full min-h-[400px] flex flex-wrap justify-around">
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div
+        class="w-[320px] h-[160px] flex flex-col justify-around group p-2 border-gray-300 border hover:shadow-2xl transition cursor-pointer"
+      >
+        <div
+          class="w-full flex justify-start gap-2 group-hover:text-[#FAB700] transition"
+        >
+          <i class="fa-solid fa-user"></i>
+          <p class="text-xl font-semibold">Expert Technicians</p>
+        </div>
+        <p class="text-md text-gray-400">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+    </div>
+    <!-- Section-8 -->
+    <div
+      class="w-full min-h-[450px] flex justify-around items-center bg-[#F9F9FF]"
+    >
+      <div
+        class="w-[90%] justify-center sm:w-[45%] h-[140px] flex justify-around content-start gap-2 items-center hover:shadow-2xl hover:bg-white-200 cursor-pointer group"
+      >
+        <img
+          class="w-[60px]"
+          src="https://preview.colorlib.com/theme/builder/img/testimonials/testi-1.png"
+          alt=""
+        />
+        <div class="w-[80%] h-full flex flex-col justify-center">
+          <p class="text-gray-400 w-[70%]">
+            Accessories Here you can find the best computer accessory for your
+            laptop, monitor, printer, scanner, speaker, projector, hardware.
+          </p>
+          <p class="text-md group-hover:text-[#FAB700] transition">
+            Mark Alviro Wiens
+          </p>
+          <p class="text-sm text-gray-400">CEO at Google</p>
+        </div>
+      </div>
+      <div
+        class="hidden sm:flex w-[45%] h-[140px]  justify-around content-start gap-2 items-center hover:shadow-2xl hover:bg-white cursor-pointer group"
+      >
+        <img
+          class="w-[60px]"
+          src="https://preview.colorlib.com/theme/builder/img/testimonials/testi-2.png"
+          alt=""
+        />
+        <div class="w-[80%] flex flex-col justify-center">
+          <p class="text-gray-400 w-[70%]">
+            Accessories Here you can find the best computer accessory for your
+            laptop, monitor, printer, scanner, speaker, projector, hardware.
+          </p>
+          <p class="text-md group-hover:text-[#FAB700] transition">
+            Mark Alviro Wiens
+          </p>
+          <p class="text-sm text-gray-400">CEO at Google</p>
+        </div>
+      </div>
+    </div>
+    <!-- Section-9 -->
+    <div class="w-full h-[300px] flex flex-wrap justify-around items-center">
+      <img
+        class="w-[12%] h-[30%] border-gray-300 opacity-[0.3] hover:opacity-[0.9] cursor-pointer transition"
+        src="https://preview.colorlib.com/theme/builder/img/clients-logo/c-logo-1.png"
+        alt="logo"
+      />
+      <img
+        class="w-[12%] h-[30%] border-gray-300 opacity-[0.3] hover:opacity-[0.9] cursor-pointer transition"
+        src="https://preview.colorlib.com/theme/builder/img/clients-logo/c-logo-2.png"
+        alt="logo"
+      />
+      <img
+        class="hidden sm:block [12%] h-[30%] border-gray-300 opacity-[0.3] hover:opacity-[0.9] cursor-pointer transition"
+        src="https://preview.colorlib.com/theme/builder/img/clients-logo/c-logo-3.png"
+        alt="logo"
+      />
+      <img
+        class="hidden sm:block [12%] h-[30%] border-gray-300 opacity-[0.3] hover:opacity-[0.9] cursor-pointer transition"
+        src="https://preview.colorlib.com/theme/builder/img/clients-logo/c-logo-4.png"
+        alt="logo"
+      />
+      <img
+        class="hidden sm:block [12%] h-[30%] border-gray-300 opacity-[0.3] hover:opacity-[0.9] cursor-pointer transition"
+        src="https://preview.colorlib.com/theme/builder/img/clients-logo/c-logo-5.png"
+        alt="logo"
+      />
+    </div>
+  </body>
+</html>
