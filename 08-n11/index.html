@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N11 task</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://n11scdn.akamaized.net/static/favicon.ico"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="w-full flex flex-col items-center ">
+    <header class="w-[90%] h-[80px] flex justify-between items-center">
+      <img
+        class="w-[70px]"
+        src="https://n11scdn.akamaized.net/a1/org/25/03/18/89/65/01/31/94/13/25/13/93/66889250221518075393.svg"
+        alt=""
+      />
+      <label class="w-2/4 h-2/4 flex items-center gap-4 p-4 border-[#5D3EBC] border rounded-4xl" for="human">
+        <i class="fa-solid fa-magnifying-glass w-[2%] text-xl"></i>
+        <input class="w-3/4 text-xl outline-none" type="text" id="human" placeholder="Hummel Ayakkabilar 999 TL" />
+      </label>
+      <div class="w-[35%] flex justify-around">
+        <div class="w-1/4 flex items-center gap-4">
+          <i class="fa-solid fa-location-dot text-[#5D3EBC] flex text-4xl"></i>
+          <div>
+            <p class=" text-sm font-semibold">TESLİMAT ADRESİ</p>
+            <span class="text-xs text-[#5D3EBC] underline font-semibold">Adress Ekle</span>
+          </div>
+         
+        </div>
+         <hr>
+          <div class="w-3/4 flex justify-around items-center gap-2">
+          <div class="w-[80%] flex justify-around">
+              <i class="fa-solid fa-cart-shopping text-[#5D3EBC] flex text-2xl "></i>
+          <i class="fa-solid fa-user text-[#5D3EBC] flex text-2xl"></i>
+          <div>
+            <p class=" text-sm font-semibold">Hesabim</p>
+            <span class="text-xs text-[#5D3EBC] underline font-semibold">Uye OL Grish Yap</span>
+          </div>
+          </div>
+         
+        </div>
+      </div>
+    </header>
+    <nav class="w-full h-[60px] pl-4 pr-4 bg-gray-200  flex items-center justify-center gap-2">
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/23/04/27/50/92/89/68/98/82/81/83/46/87911743275366201592.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/53/46/97/55/78/81/00/58/49/31961828233979739225.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/86/32/24/29/29/47/15.4/41/05/57126929366806936432.png" alt="">
+        <span>Moda</span>
+      </div>
+      
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/77/23/79/89/22/11/13/67/06/1817596495358676750.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/82/78/22/64/91/17/58/84/05/11823586115151480719.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/23/05/30/61/78/87/08/84/35/58/58/07/48911776658065241375.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/78/48/54/32/73/75/59/66/38/52455961286243405128.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/86/74/46/47/76/61/89/79/84/34021047252181561848.png" alt="">
+        <span>Moda</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[30%]" src="https://n11scdn.akamaized.net/a1/30/22/08/01/84/83/10/49/65/28/06/29/71/92143688675639577247.png" alt="">
+        <span>Moda</span>
+      </div>
+    </nav>
+ 
+ <main class="w-full h-[700px] flex items-center justify-center">
+  <div class="relative flex items-center justify-center w-full h-full group">
+    <!-- Sol düymə -->
+    <div class="absolute left-4 w-[50px] h-[50px] bg-gray-200 rounded-full flex justify-center items-center group-hover:opacity-100 opacity-0 transition duration-500">
+      <span class="text-5xl">‹</span>
+    </div>
+
+    <!-- Şəkil -->
+    <img class="w-[90%] h-[90%] object-cover" 
+         src="https://n11scdn.akamaized.net/a1/1180_440/25/05/09/83/31/34/07/93/29/65/25/04/18398600687542972884.jpg" 
+         alt="">
+
+    <!-- Sağ düymə -->
+    <div class="absolute right-4 w-[50px] h-[50px] bg-gray-200 rounded-full flex justify-center items-center group-hover:opacity-100 opacity-0 transition duration-300">
+      <span class="text-5xl text-center">›</span>
+    </div>
+  </div>
+</main>
+
+
+   <div class="w-full h-[120px] pl-4 pr-4 bg-gray-200  flex items-center justify-around gap-2">
+    <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[40%]" src="https://n11scdn.akamaized.net/a1/org/24/12/05/57/75/39/03/95/44/51/93/76/61161725643599922041.png" alt="">
+        <span>Kampanyalar</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[40%]" src="https://n11scdn.akamaized.net/a1/org/23/12/14/89/04/10/85/05/77/07/47/08/08332828680747007144.png" alt="">
+        <span>Kuponlar</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[40%]" src="https://n11scdn.akamaized.net/a1/org/24/12/03/85/40/77/31/81/62/70/75/61/33015927168091206746.png" alt="">
+        <span>Sana Ozel</span>
+      </div>
+      
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[40%]" src="https://n11scdn.akamaized.net/a1/org/24/12/03/65/85/81/01/73/96/21/30/26/38976176843259491755.png" alt="">
+        <span>Yurt Dishindan</span>
+      </div>
+      <div class="w-[10%] flex justify-around items-center cursor-pointer">
+        <img class="w-[40%]" src="https://n11scdn.akamaized.net/a1/org/24/12/03/73/89/34/59/68/50/51/47/96/62621856568420710215.png" alt="">
+        <span>Siparishlerim</span>
+      </div>   
+    
+   </div>
+
+   <section class="w-full h-[700px] flex flex-col justify-center items-center">
+    <div class="w-[85%] h-[15%]">
+     <h2 class="text-4xl font-bold"> Diğer Seçenekleri Gördün mü? 🔍</h2 class="text-3xl font-semibold">
+    </div>
+    <div class="w-[95%] flex justify-around items-center ">
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/13/57/45/20/IMG-5703932966252203713.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/02/89/78/54/IMG-6573812081250599190.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/12/47/62/29/IMG-4469068947898103579.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/13/12/27/39/IMG-2197788487656718032.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/06/46/43/61/IMG-5662152737639587036.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+ <div class="w-[90%] h-[70px] bg-[#5D3EBC] pl-12 flex items-center p-4 rounded-xl">
+  <h1 class="text-5xl text-white font-semibold">Kaçmaz Teklifler <span>></span></h1>
+ </div>
+
+  <section class="w-full h-[650px] flex flex-col justify-center items-center">
+    <div class="w-[95%] flex justify-around items-center ">
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/182_180/04/46/25/47/IMG-5898711596626816710.jpg" alt="">
+         <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/182_180/15/56/29/17/IMG-5073994223617609079.jpg" alt="">
+        <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+         <img class="w-1/3 absolute top-[70px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+      
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/182_180/01/27/85/04/IMG-8057490323104807368.jpg" alt="">
+        <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+      
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/182_180/03/72/66/49/IMG-6253800091732933313.jpg" alt="">
+        <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+      
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/182_180/09/76/60/37/IMG-2073026686075511395.jpg" alt="">
+        <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+         <img class="w-1/3 absolute top-[70px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+      
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+    </div>
+   </section>
+ 
+ <section class="w-full h-[800px] flex flex-col justify-center items-center">
+    <div class="w-[85%] h-[20%]">
+     <h2 class="text-5xl font-semibold">İncelediğin Ürünlere Benzer 🤩</h2 class="text-3xl font-semibold">
+    </div>
+    <div class="w-[95%] flex justify-around items-center  ">
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/15/58/44/27/IMG-5698911114700804655.jpg" alt="">
+         <img class="w-1/3 absolute top-[-30px] left-[-20px] text-3xl" src="https://n11scdn.akamaized.net/a1/org/24/08/09/50/81/64/73/64/22/70/48/40/24655998218109107171.png" alt="">
+
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/10/69/03/28/IMG-1961211461337123300.png" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/12/35/92/36/IMG-4699663334812485470.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/04/36/02/01/IMG-2381789730521689130.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[14%] h-3/4 flex flex-col justify-center items-center gap-4">
+       <div class="w-full h-[300px] outline outline-gray-200 hover:outline-none flex justify-center items-center cursor-pointer relative">
+         <img class="w-full h-full" src="https://n11scdn.akamaized.net/a1/226_226/15/16/71/80/IMG-3549517594403691337.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Maybelline New York Lash Sensational Sky High Space Diamond Elmas Işıltılı Maskara</p>
+        <div class="w-full gap-2">
+         <div class="w-full">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold">5999,95 TL</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+   <section class="w-full h-[700px] flex justify-center items-center mb-4">
+    <div class="w-[95%] h-full bg-[url('https://n11scdn.akamaized.net/a1/1180_474/25/05/14/86/55/94/78/73/95/17/07/56/66255549577259168383.jpg')] bg-no-repeat bg-cover relative bg-container">
+   <div class="w-[16%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[2%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/08/58/79/60/IMG-901070290541247520.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[19%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/04/66/31/88/IMG-7524712613580351679.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[35.5%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/06/91/71/83/IMG-6543922795806206272.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="absolute bottom-[60px] right-[40%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/14/82/57/71/23/37/72/08/28/43/37463751727213856301.png" alt="">
+    </div>
+      <div class="absolute bottom-[60px] right-[30%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/14/82/57/71/23/37/72/08/28/43/37463751727213856301.png" alt="">
+    </div>
+      <div class="absolute bottom-[60px] right-[20%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/14/77/79/91/89/69/86/37/86/99/32138123647855050762.png" alt="">
+    </div>
+    <div class="absolute bottom-[60px] right-[10%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/14/87/79/36/09/60/73/42/43/41/44246019424135955837.png" alt="">
+    </div>
+    <div class="absolute bottom-[60px] right-[1%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/14/51/13/49/02/19/09/20/74/55/98275941763905898050.png" alt="">
+    </div>
+    </div>
+    
+   </section>
+
+    <section class="w-full h-[700px] flex justify-center items-center mt-4">
+      <div class="w-[95%] h-full bg-[url('https://n11scdn.akamaized.net/a1/1180_474/25/05/09/63/04/70/87/12/64/72/06/10/55544228580358375130.jpg')] bg-no-repeat relative bg-cover bg-container bg-center">
+    <div class="w-[16%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[2%] rounded-xl p-4">
+        <div class="w-full h-[250px] flex justify-center items-center cursor-pointer relative">
+          <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/03/39/85/01/IMG-529179783539015169.jpg" alt="">
+          <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+        </div>
+          <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+          <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+          <div class="w-full gap-2">
+          <div class="w-full ">
+            <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+          <span class="text-gray-200">(65)</span>
+          </div>
+          <p class="text-2xl font-semibold ">5999,95 TL</p>
+          </div>
+        </div>
+        <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[19%] rounded-xl p-4">
+        <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+          <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/06/90/34/18/IMG-788478975689940712.jpg" alt="">
+          <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+        </div>
+          <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+          <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+          <div class="w-full gap-2">
+          <div class="w-full ">
+            <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+          <span class="text-gray-200">(65)</span>
+          </div>
+          <p class="text-2xl font-semibold ">5999,95 TL</p>
+          </div>
+        </div>
+        <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[35.5%] rounded-xl p-4">
+        <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+          <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/13/36/62/54/IMG-6969321610939028918.jpg" alt="">
+          <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+        </div>
+          <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+          <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+          <div class="w-full gap-2">
+          <div class="w-full ">
+            <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star text-[#FAB700]"></i>
+          <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+          <span class="text-gray-200">(65)</span>
+          </div>
+          <p class="text-2xl font-semibold ">5999,95 TL</p>
+          </div>
+        </div>
+        <div class="absolute bottom-[60px] right-[40%]">
+        <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/63/70/36/01/31/09/98/15/75/52088715424856821158.png" alt="">
+      </div>
+        <div class="absolute bottom-[60px] right-[30%]">
+        <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/80/62/52/34/80/89/10/44/49/85875375347082349927.png" alt="">
+      </div>
+        <div class="absolute bottom-[60px] right-[20%]">
+        <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/23/05/02/77/18/80/56/18/96/74/41/59/79117732208422961.png" alt="">
+      </div>
+      <div class="absolute bottom-[60px] right-[10%]">
+        <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/23/05/02/80/86/50/63/30/42/54/56/25/03543184255322208164.png" alt="">
+      </div>
+      <div class="absolute bottom-[60px] right-[1%]">
+        <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/83/06/49/25/78/13/82/47/97/38969565919557824912.png" alt="">
+      </div>
+      </div>
+    
+   </section>
+
+<section class="w-full h-[300px] flex flex-col items-center justify-center bg-[#EDEFF3] gap-8 m-12">
+  <div class="w-[90%]">
+    <h1 class="text-5xl font-semibold">Markalar</h1>
+  </div>
+  <div class="w-[90%] flex justify-between items-center gap-12">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/24/10/22/65/95/73/50/14/02/22/06/34/38115575922986339810.jpg" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/24/10/22/78/39/68/18/01/04/77/42/67/27454315749700290735.jpg" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/24/10/22/80/24/48/34/12/27/12/07/69/16354339138800009615.jpg" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/24/09/30/66/58/77/53/99/20/75/84/75/21763789500440658726.jpg" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/23/05/25/79/96/04/45/54/96/77/67/62/76826852885052898073.png" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/21/05/03/68/15/84/06/15/62/86/26/23/32633710669061273057.jpg" alt="">
+      <img class="w-[180px] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/23/06/23/85/90/69/56/80/11/45/05/08/65716302984392428504.jpg" alt="">
+  </div>
+</section>
+
+
+     
+   <section class="w-full h-[700px] flex justify-center items-center mb-6">
+    <div class="w-[95%] h-full bg-[url('https://n11scdn.akamaized.net/a1/1180_474/25/05/16/77/20/67/11/34/56/46/31/90/44943948918008166100.jpg')] bg-no-repeat bg-cover relative">
+   <div class="w-[16%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[2%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/08/65/66/34/IMG-6823140807943746241.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[19%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/10/00/82/30/IMG-1060929580031983972.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[35.5%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/08/65/66/34/IMG-6823140807943746241.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="absolute bottom-[60px] right-[40%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/56/08/41/40/81/48/63/46/13/51200905173216347143.png" alt="">
+    </div>
+      <div class="absolute bottom-[60px] right-[30%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/48/12/57/44/14/42/28/15/12/6763498069002403333.png" alt="">
+    </div>
+      <div class="absolute bottom-[60px] right-[20%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/56/46/98/09/05/84/26/28/75/95599674202790774722.png" alt="">
+    </div>
+    <div class="absolute bottom-[60px] right-[10%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/77/58/27/16/41/77/67/05/52/67915928466260931152.png" alt="">
+    </div>
+    <div class="absolute bottom-[60px] right-[1%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/05/06/70/16/47/79/39/23/94/52/66/76160030620722023501.png" alt="">
+    </div>
+    </div>
+    
+   </section>
+
+      <section class="w-full h-[700px] flex justify-center items-center mt-6">
+    <div class="w-[95%] h-full bg-[url('https://n11scdn.akamaized.net/a1/1180_474/25/04/18/46/51/93/42/37/56/57/33/77/57944995317193620288.jpg')] bg-no-repeat bg-cover relative">
+   <div class="w-[16%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[2%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/05/89/53/13/IMG-7683369112233584426.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[19%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/06/28/01/86/IMG-2398946020497562784.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="w-[15.4%] h-[450px] flex flex-col justify-center items-center gap-4 bg-white absolute top-[10px] right-[35.5%] rounded-xl p-4">
+       <div class="w-full h-[400px] flex justify-center items-center cursor-pointer relative">
+         <img class="w-[70%] h-full" src="https://n11scdn.akamaized.net/a1/182_180/14/92/19/27/IMG-3049358806213266778.jpg" alt="">
+         <i class="fa-solid fa-heart absolute top-[10px] right-[20px] text-3xl text-red-500"></i>
+       </div>
+        <span class="uppercase text-xl font-bold text-[#5D3EBC]">Ucretsiz Kargo</span>
+        <p> Bambu 4lü Kapaklı Pipetli Cam Bardak Isıya Dayanıklı</p>
+        <div class="w-full gap-2">
+         <div class="w-full ">
+           <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star text-[#FAB700]"></i>
+        <i class="fa-solid fa-star-half text-[#FAB700]"></i>
+        <span class="text-gray-200">(65)</span>
+         </div>
+        <p class="text-2xl font-semibold ">5999,95 TL</p>
+        </div>
+      </div>
+      <div class="absolute bottom-[60px] right-[40%]">
+      <img class="w-[55%] rounded-[50%] cursor-pointer " src="https://n11scdn.akamaized.net/a1/org/25/04/16/51/09/24/51/86/70/70/49/37/66694821803325408090.png" alt="">
+    </div>
+    </div>
+    
+   </section>
+  </body>
+</html>
