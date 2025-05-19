@@ -6,7 +6,7 @@
 
 .wrapper {
   width: 100%;
-  min-height: 600px;
+  min-height: 800px;
   background-image: url("https://preview.colorlib.com/theme/jellyfish/images/slider_1.jpg");
   background-size: cover;
   background-position: center;
@@ -26,10 +26,10 @@
   color: white;
 }
 .wrapper .contain h1 {
-  font-size: 40px;
+  font-size: 70px;
 }
 .wrapper .contain p {
-  width: 80%;
+  width: 60%;
   font-size: 20px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
@@ -55,6 +55,10 @@
 }
 .wrapper2 .contain .text {
   width: 100%;
+}
+.wrapper2 .contain .text h1 {
+  font-size: 60px;
+  font-weight: bold;
 }
 .wrapper2 .contain table {
   width: 100%;
@@ -109,14 +113,14 @@
 
 .wrapper3 {
   width: 100%;
-  min-height: 900px;
+  min-height: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .wrapper3 .carts {
   width: 85%;
-  height: 75%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,9 +130,13 @@
 .wrapper3 .carts .head {
   width: 100%;
 }
+.wrapper3 .carts .head h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
 .wrapper3 .carts .cart {
   width: 48%;
-  height: 400px;
+  height: 500px;
   background-image: url("https://preview.colorlib.com/theme/jellyfish/images/slider_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
